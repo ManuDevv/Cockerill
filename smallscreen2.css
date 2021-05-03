@@ -1,0 +1,138 @@
+body{
+  background-color: blue;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.header{
+    background-color: teal;
+    width: 100%;
+    min-width: 135vh;   
+    margin: 0 auto; 
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-responsive{
+  background-color: teal;
+  width: 135vh;
+    
+  margin: 0 auto; 
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.hamburger{
+    
+  background-color: hotpink;
+    width: auto;
+    height: 500px;
+    display:flex ;
+    justify-content:center;
+    align-items: flex-start;
+}
+#btn-menu{
+    
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn-menu img{
+    width: 150%;
+}
+.lignes{
+    margin-top: 3px;
+    height: 5px;
+    width: 30px;
+    background-color:   #4f0000;
+    border-radius: 5px;
+  }
+#nav{
+    background-color: transparent;
+}
+
+.navigation{
+  background: transparent;
+    display: block;
+    justify-content: left;    
+    width: 200px;
+    opacity: 1;
+    margin-top: -300px;
+    transform: translateX(-200px);
+    line-height: 2.5;
+    
+}
+
+.nav-reponsive{
+
+    animation: apparition 0.4s ease-in-out forwards
+  
+  }
+  
+  @keyframes apparition{
+    100%{
+      opacity: 1;
+      transform: translateX(5px);
+      
+    }
+  } 
+  .navigation li:hover > .submenu{
+
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+    transform: translateX(+170px);
+  
+  
+  }
+.media{
+    display: none;
+}
+.main-container-index{
+  width: 100vh;
+  background-color: greenyellow;
+  display: flex;
+  justify-content:flex-start ;
+  align-items: center;
+ 
+}
+.main-seance{
+  width: auto;
+}
+
+/*********** Page histoire ******/
+
+.main-container-histo{
+
+width: 140vh;
+
+}
+/*********** Page technique ******/
+
+.container-tech{
+
+  width: 140vh;
+  
+  }
+
+  /*********** Page Photo d'époque ******/
+
+.main-container-epoque{
+
+  width: 140vh;
+  
+  }

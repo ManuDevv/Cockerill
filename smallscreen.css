@@ -1,0 +1,191 @@
+/* pour les petit ecran */
+
+
+body
+{
+  margin: 0;
+  padding: 0; 
+ 
+
+  
+  color: #cdcdcd;
+  
+  
+} 
+
+/* coleur des titres et des texte de l'ensemble du site  */
+
+.title-page , .text-page{
+  color: #4f0000;
+}
+
+.header{
+  
+  background-image: none;
+  
+  /* background-color: royalblue; */
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+ 
+
+
+}
+.hamburger{
+  height: 250px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+   background-color: saddlebrown; 
+ 
+}
+.hamburger img{
+width: 50%;
+}
+
+
+#btn-menu{
+  
+  color: #4f0000;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+
+
+.lignes{
+  margin-top: 3px;
+  height: 5px;
+  width: 30px;
+  background-color:   #4f0000;
+  border-radius: 5px;
+}
+
+
+ #nav{
+/*   
+   background: orange   ; */
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 360px;
+   
+   transform: translateY(-10px);
+  
+   
+} 
+
+#nav2{
+  
+  display: bock;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+ 
+  background: #1E750D;
+  color: #4f0000;
+  width: 360px;
+  height: 250px;
+  line-height: 1.5;
+  opacity: 0;
+ z-index: 10;
+  
+ 
+  
+    
+}
+
+.navigation li:hover > .submenu{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  transform: translateX(+170px);
+
+
+}
+
+/* animation du menu */
+.nav-reponsive{
+
+  animation: apparition 0.4s ease-in-out forwards
+
+}
+
+@keyframes apparition{
+  100%{
+    opacity: 1;
+    transform: translateY(+100px);
+    
+  }
+} 
+
+
+.media{
+  display: none;
+}
+
+.main-container-index{
+  color: #4f0000;
+  width: 360px;
+  
+  
+
+}
+.seance-container{
+  display: block;
+ 
+}
+.seance-container img{
+  display: none;
+}
+.box-right{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* page histo */
+.main-container-index a{
+  color: #4f0000;
+}
+
+.menu-histo{
+  display: none;
+}
+
+
+/* page technique */
+
+.container-tech{
+  border:black solid;
+}
+
+.info-tech{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-tech h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ color:#4f0000 ;
+}
+
+.info-tech img{
+  width: 500px;
+}
