@@ -91,11 +91,12 @@ nav{
    text-decoration: none;
    list-style: none;
    
+   
 }
 
 a{
     text-decoration: none;
-    color: #4f0000;
+    color: #f1f1f1;
 }
 .navigation li:hover > .submenu{
      display: block; 
@@ -109,7 +110,7 @@ a{
     margin-top: 0px;
     padding: 0%;
     z-index: 500;
-    background: #f1f1f1;
+    background: #1E750D;
 
 }
 
@@ -148,6 +149,10 @@ li:hover::after{
     opacity: 0;
 } */
 
+.fa-home {
+      
+   color: #f1f1f1;
+}
 .box{
     width: 70%;
     margin: 30px auto ;
@@ -202,6 +207,11 @@ li:hover::after{
     padding: 20px;
     
 }
+.container-btn{
+    display: flex;
+    justify-content: center;
+    
+}
 
 button{
     width: 150px;
@@ -210,8 +220,9 @@ button{
   font-size: 1.5rem;
   font-weight: 100;
   background-color: #1E750D  ;
-  color: white;
+  color: #f1f1f1;
   margin-bottom: 10px;
+  
 }
 .seance-container img{
     width: 300px;
@@ -416,11 +427,9 @@ span{
 }
 .container-card{
 
-    width: 90%;
-   
+    width: 90%;   
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     padding: 20px;
     
     
@@ -525,6 +534,9 @@ span{
      font-size: 20px;
  }
 
+.img-article{
+    box-shadow: 0px 50px 50px #333;
+}
 
  /* page contact*/
 
