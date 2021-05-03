@@ -149,9 +149,14 @@ li:hover::after{
     opacity: 0;
 } */
 
-.fa-home {
+
+.home-svg {
       
    color: #f1f1f1;
+   width: 60px;
+   height: 60px;
+  
+   
 }
 .box{
     width: 70%;

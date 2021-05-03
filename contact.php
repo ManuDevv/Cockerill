@@ -67,7 +67,7 @@ if(isset($_POST['mailform'])){
             </li>
 
 
-            <li><a>Faire un don</a></li>
+            <li><a href="https://www.helloasso.com/associations/chemin-de-fer-touristique-de-la-vallee-de-l-aa/formulaires/5">Faire un don</a></li>
             <li><a href="boutique.html">Boutique</a></li>
             <li><a href="contact.php">Contact</a></li>
 
