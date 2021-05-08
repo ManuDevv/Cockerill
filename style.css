@@ -467,6 +467,11 @@ span{
      font-size: 20px;
      
  }
+ .img-mecenat{
+     width: 15%;
+     border: #333 2px solid;
+     box-shadow: 60px 16px #1E750D ;
+ }
  .table-part{
      width: 100%;
      display: flex;
@@ -524,7 +529,7 @@ span{
 
 .img-article{
     margin-bottom: 40px;
-    box-shadow: 0px 50px 50px #333;
+    box-shadow: 0px 50px 50px #1E750D;
 }
 
  /* page contact*/
