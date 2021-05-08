@@ -49,5 +49,6 @@ console.log(posYNav);
 
  a.addEventListener('click',()=>{
     console.log('cliquer sur le lien')
+    nav2.classList.toggle('nav-reponsive');
  })
 

@@ -1,138 +1,238 @@
-body{
-  background-color: blue;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
+/* pour les petit ecran */
+
+
+body
+{
+  margin: 0;
+  padding: 0; 
+ 
+
+  
+  color: #cdcdcd;
+  
+  
+} 
+.title-page{
+  font-family: 'Saira', sans-serif;
+  margin: 0;
+  padding: 10px 0;
+  color: #121212;
+  font-weight: bold;
+  margin-left: 30px;
+
+}
+.text-page{
+
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+  margin-left: 30px;
+
+}
+.text-souligne{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+  text-decoration: underline;
+  margin-left: 30px;
+  font-weight: 800;
+  color: #121212;
+
+}
+
+/* coleur des titres et des texte de l'ensemble du site  */
+
+.title-page , .text-page{
+  color: #4f0000;
 }
 
 .header{
-    background-color: teal;
-    width: 100%;
-    min-width: 135vh;   
-    margin: 0 auto; 
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  
+  background-image: none;
+  
+  /* background-color: royalblue; */
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+ 
+
+
+}
+.hamburger{
+  height: 350px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+   /* background-color: saddlebrown;  */
+ 
+}
+.hamburger img{
+width: 100%;
 }
 
-.header-responsive{
-  background-color: teal;
-  width: 135vh;
+
+#btn-menu{
+  
+  color: #4f0000;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+
+
+.lignes{
+  margin-top: 3px;
+  height: 5px;
+  width: 30px;
+   background-color:   #4f0000; 
+  border-radius: 5px;
+}
+
+
+ #nav{
+   
+   background: transparent  ; 
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 360px;
+   
+   
+  
+   
+} 
+
+#nav2{
+  
+  display: bock;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin-top: -200px;
+  transform: translateX(-400px);
+  background: #1E750D;
+  color: #4f0000;
+  width: 360px;
+  height: 300px;
+  line-height: 1.5;
+  opacity: 0;
+  z-index: 10;    
+}
+
+.navigation li:hover > .submenu{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  transform: translateX(+170px);
+}
+
+/* animation du menu */
+.nav-reponsive{
+
+  animation: apparition 0.4s ease-in-out forwards
+
+}
+
+@keyframes apparition{
+  100%{
+    opacity: 1;
+    transform: translateX(-350px);
     
-  margin: 0 auto; 
-  background-image: none;
+  }
+} 
+
+
+.media{
+  display: none;
+}
+
+.main-container-index{
+  color: #4f0000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+.seance-container{
+  display: flex;
+ 
+}
+.seance-container img{
+  
+}
+.box-right{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* page histo */
+.main-container-index a{
+  color: #4f0000;
+}
+
+.menu-histo{
+  display: none;
+}
+
+
+/* page technique */
+
+.container-tech{
+  border:black solid;
+}
+
+.info-tech{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
-
-.hamburger{
-    
-  background-color: hotpink;
-    width: auto;
-    height: 500px;
-    display:flex ;
-    justify-content:center;
-    align-items: flex-start;
-}
-#btn-menu{
-    
-    height: 430px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#btn-menu img{
-    width: 150%;
-}
-.lignes{
-    margin-top: 3px;
-    height: 5px;
-    width: 30px;
-    background-color:   #4f0000;
-    border-radius: 5px;
-  }
-#nav{
-    background-color: transparent;
-}
-
-.navigation{
-  background: transparent;
-    display: block;
-    justify-content: left;    
-    width: 200px;
-    opacity: 1;
-    margin-top: -300px;
-    transform: translateX(-200px);
-    line-height: 2.5;
-    
-}
-
-.nav-reponsive{
-
-    animation: apparition 0.4s ease-in-out forwards
-  
-  }
-  
-  @keyframes apparition{
-    100%{
-      opacity: 1;
-      transform: translateX(5px);
-      
-    }
-  } 
-  .navigation li:hover > .submenu{
-
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-   
-    transform: translateX(+170px);
-  
-  
-  }
-.media{
-    display: none;
-}
-.main-container-index{
-  width: 100vh;
-  background-color: greenyellow;
+.info-tech h1 {
   display: flex;
-  justify-content:flex-start ;
+  justify-content: center;
   align-items: center;
- 
+  flex-wrap: wrap;
+ color:#4f0000 ;
 }
-.main-seance{
+
+.info-tech img{
+  width: 500px;
+}
+
+/*page seance*************/
+
+.main-container-seance{
+
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+
+}
+
+/*page trombi*/
+
+.main-container{
   width: auto;
+  display: flex;
+  color: #333;
+  
+}
+.container-card{
+  flex-wrap: wrap;
+}
+.container-card2{
+  flex-wrap: wrap;
 }
 
-/*********** Page histoire ******/
-
-.main-container-histo{
-
-width: 140vh;
-
+/* page adhésion************/
+.container-adhesion{
+  color: #333;
 }
-/*********** Page technique ******/
-
-.container-tech{
-
-  width: 140vh;
-  
-  }
-
-  /*********** Page Photo d'époque ******/
-
-.main-container-epoque{
-
-  width: 140vh;
-  
-  }
