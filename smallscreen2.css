@@ -236,3 +236,12 @@ width: 100%;
 .container-adhesion{
   color: #333;
 }
+
+/* toutes es page de seance de travail*******/
+
+.row1{
+  flex-wrap: wrap;
+}
+.row2{
+  flex-wrap: wrap;
+}
