@@ -5,10 +5,7 @@ body
 {
   margin: 0;
   padding: 0; 
- 
-
-  
-  color: #cdcdcd;
+display:table;
   
   
 } 
@@ -103,16 +100,12 @@ width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 360px;
-   
-   
-  
-   
+   width: 360px;   
 } 
 
 #nav2{
-  
-  display: bock;
+/*   
+  display: block; */
   flex-direction: column;
   justify-content: center;
   align-items:center;
@@ -166,9 +159,7 @@ width: 100%;
   display: flex;
  
 }
-.seance-container img{
-  
-}
+
 .box-right{
   display: flex;
   justify-content: center;

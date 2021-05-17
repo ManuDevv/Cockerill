@@ -242,7 +242,7 @@ button{
     width: 500px;
     margin-top: 10px;
     border: #333 solid 1px;
-   
+    box-shadow: 0px 0px 5px #333;
 }
 .svg{
     margin-top: 20px;
@@ -529,7 +529,7 @@ span{
 
 .img-article{
     margin-bottom: 40px;
-    box-shadow: 0px 50px 50px #1E750D;
+    box-shadow: 0px 50px 50px #333;
 }
 
  /* page contact*/
