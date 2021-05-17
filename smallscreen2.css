@@ -140,7 +140,7 @@ width: 100%;
 @keyframes apparition{
   100%{
     opacity: 1;
-    transform: translateY(-100px);
+    transform: translateY(-90px);
     
   }
 } 
@@ -166,6 +166,9 @@ width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+footer{
+  margin-bottom: 5px;
 }
 /* page histo */
 .main-container-index a{

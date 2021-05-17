@@ -47,8 +47,8 @@ console.log(posYNav);
     nav2.classList.toggle('nav-reponsive');
  })
 
- a.addEventListener('click',()=>{
-    console.log('cliquer sur le lien')
-    nav2.classList.toggle('nav-reponsive');
- })
+//  a.addEventListener('click',()=>{
+//    //  console.log('cliquer sur le lien')
+//      nav2.classList.toggle('nav-reponsive');
+//  })
 
