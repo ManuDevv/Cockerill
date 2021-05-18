@@ -118,15 +118,17 @@ width: 100%;
   line-height: 1.5;
   opacity: 0;
   z-index: 10; 
+  border: #333 solid 1px;
      
 }
 
 .navigation li:hover > .submenu{  
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; 
-  transform: translateX(+170px);
+  transform: translateX(+200px);
 }
 
 
@@ -145,7 +147,19 @@ width: 100%;
   }
 } 
 
-
+.seance-container{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .media{
   display: none;
 }
