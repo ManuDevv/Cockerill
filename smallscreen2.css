@@ -255,3 +255,11 @@ width: 100%;
 .row2{
   flex-wrap: wrap;
 }
+
+/****** page carousel *********/
+.main-carousel{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
