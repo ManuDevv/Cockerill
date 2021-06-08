@@ -43,9 +43,9 @@ if(isset($_POST['mailform'])){
             <li><a href="#">Couronne n°18</a>
 
                 <ul class="submenu">
-                <!-- <li><a href="index.html">Accueil </a></li> -->
+                
                     <li><a href="histo.html">L'histoire </a></li>
-                    <li> <a href="tech.html">Informations Technique</a> </li>
+                    <li> <a href="tech.html">Informations Techniques</a> </li>
                     <li> <a href="img-epoque.html">Photos d'époque</a><li>
 
                 </ul>
